@@ -1,0 +1,150 @@
+/* Created by TopStyle Trial - www.topstyle4.com */
+#contenedor{
+	text-align: left;
+	width: 900px;
+	background-color: #ffffff;
+	margin: auto;
+	}	
+.head {
+		background-image:url('banner.jpg');
+		height:100px;
+		width: 900px;
+		background-position:center;
+		background-size: 1024px 150px;
+		
+	}
+#logo{
+background-image: url(logo.png);
+   height: 90px;
+	width: 90px;
+	background-size: 90px 90px; 
+	float: left;
+	margin-top: 5px;
+	margin-left: -300px;
+}
+#ticktack{
+font-family: Arial;
+text-shadow: 10px 10px 10px;
+margin-left: 100px;
+font-size: 20px;
+margin-left: 150px;
+float: left;
+margin-top: 30px;
+}
+#fomulario{
+float: right;
+border: 3px;
+background-color: ThreedShadow;
+width: 250px;
+height: 70px;
+border-style: solid;
+margin-top: 10px;
+
+}
+	#bloque{
+	width: 900px;
+	height: 900px;
+	padding: 12px 0px 10px 0px;
+	background-color: #7f0080;
+	}
+
+h1{
+	font-size: 12pt;
+
+}
+#derecha{
+		margin-right: auto;
+		
+	}
+				#menu{
+				border-style: solid;
+				border: 1px;
+				background-color: ThreedShadow;
+				width: 200px;
+				height: 190px;
+				border-style: double;
+				border-radius: 7px;
+	
+				}
+				#subcribase{
+					width: 180px;
+					height: 150px;
+					border-style: solid;
+				border: 1px;
+				background-color: ThreedShadow;
+				width: 200px;
+				border-style: double;
+				border-radius: 7px;
+				}
+				#destacados{
+	
+				height: 100px;
+				border-style: solid;
+				border: 3px;
+				border: 1px;
+				background-color: ThreedShadow;
+				width: 200px;
+				border-style: double;
+				border-radius: 7px;
+}
+
+	#centro {
+margin-top: 20px;
+margin-left: 230px;
+width: 400px;
+float: left;
+margin-top: -490px;
+border-style: solid;
+border: 3px;
+background-color: ThreedShadow;
+width: 400px;
+border-style: double;
+border-radius: 7px;
+}
+#izquierda {
+margin-top: 10px;
+
+}
+#proximos {
+margin-left: 650px;
+width: 400px;
+float: left;
+margin-top: -620px;
+border-style: solid;
+border: 3px;
+background-color: ThreedShadow;
+width: 240px;
+border-style: double;
+border-radius: 7px;
+}
+#artista {
+	margin-left: 650px;
+	width: 400px;
+	float: left;
+	margin-top: -380px;
+	border-style: solid;
+	border: 3px;
+	background-color: ThreedShadow;
+	width: 240px;
+	border-style: double;
+	border-radius: 7px;
+
+}
+body {
+background-color: #a900aa;	
+}
+
+#botoncorreo { 
+	padding-top : 3px; 
+	padding-left: 106px; 
+	}
+#botoncorrero input{ 
+	border : 0px none; 
+}
+#campotexto{ 
+	float: left;
+	}
+#campotexto input{ 
+	width:100px; 
+} 
+

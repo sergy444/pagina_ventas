@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<head>
+<title>Web de Música</title>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" /> 
+<link rel="StyleSheet" href="estilos3.css" type="text/css">
+</head>
+<body>
+<div align="center" style="width:1024px" id="contenedor">
+<div id="banner">
+
+	<div  id="logo"> 
+	</div>
+		<div id="title">TICK TACK ZUBIRI TICKETS</div>
+		<div id="form"><form name="registro"><fieldset><legend>Entrar</legend>Usuario:<input type="text" value="Introduzca usuario"><br/>Contraseña:<input type="password" value="introduzca contraseña"><br/><input type="submit" value="Aceptar"></fieldset> </form></div>
+		</div>
+	<div id="cuerpo">
+		<div id="right">
+		<div id="menu">
+			<h2>Menú</h2>
+		
+			<ul>
+				<li><a href="WebMusica.html">Últimas noticias</a></li>
+				<li><a href="conciertos.html">Próximo conciertos</a></li>
+				<li><a href="video.html">Galería de video</a></li>
+				<li><a href="audio.html">Galería de audio</a></li>
+				<li><a href="fotos.html">Fotos de conciertos</a></li>
+				<li><a href="entradas.html">Comprar entradas</a></li>
+			</ul>
+		</div>
+		<div id="subcribase">
+			<h3>Subcribase a nuestro boletin</h3>
+			<form method="POST">
+			<table>
+				<tr> 
+				<td>
+					Introduzca su correo
+				</td>
+				</tr>
+				<tr> 
+				<td>
+					<input type="email">
+				</td>
+				</tr>
+				<tr> 
+				<td>
+					<input type="submit" value="aceptar">
+				</td>
+				</tr>
+			</table>
+			</form>
+		</div>
+		<div id="destacados">
+			<h3 class="auto-style1">Artistas destacados</h3>	
+				<select name="artista">
+					<option value="" disable seletced>Selecciona un artista</option>
+					<option value="1">Pantera</option>
+					<option value="2">Machine Head</option>
+					<option value="3">Metallica</option>
+					<option value="4">Black Label Society</option>
+					<option value="5">Slipknot</option>
+					<option value="6">Black Sabbath</option>
+				</select>	
+		</div>
+		
+	</div><!--Right-->
+	<div id="medio">
+		<div id="centro">
+			<div id="video">
+				<h1> COMPRAR ENTRADAS</h1>
+				<form method="post" action="#">
+				<fieldset>
+					<legend>Realice su Pedido</legend>
+					<table border="0">
+						<tr><td><label>Artista</label></td><td><imput list="ticketsartistas" placeholder="Seleccione Artista"/></td></tr>
+						<datalist>
+							<option value="Machine Head"/>
+							<option value="Metallica"/>
+							<option value="U2"/>
+							<option value="AC/DC"/>
+							<option value="Black Label Society"/>
+							<option value="Let's Zepp"/>
+						</datalist>
+						<tr><td><label>Seleccione fecha del concierto:</label></td><td><imput type"date" value="08-11-2011"/></td></tr>
+						<tr><td><label>Número de entradas:</label></td><td><imput type"range" min=0 max=10/></td></tr>
+						<tr><td><imput type="submit" value="Comprar"></td></tr>
+					</table>
+				</fieldset>
+				</form>
+			</div>
+			</div>
+		<div="left">
+
+		<div id="conciertos">
+			<h2>Pr&oacute;ximos conciertos</h2>
+				<ul>
+				<li>Machine head - 16 de noviembre</li>
+				<li>Rolling stone - 3 de diciembre</li>
+				<li>U2 - 25 de enero</li>
+				<li>Iron maiden - 6 de febrero - Fever</li>
+				<li>AC/DC - 21 de abril - En mi casa (Lasarte)</li>
+				<li>Airbourne - 10 de mayo</li>
+
+				<li>Marilyn manson - 29 de agosto</li>
+				</ul>
+				
+				</div>
+			<div id="artista">
+				<h3>Artista de la semana</h3>
+				<div id="foto">	
+					<img src="zakk.jpg" height="220" width="170p">
+				</div>	
+				<p>
+					Presentaci&oacute;n de Zakk Wylde 
+				</p>
+			</div>
+	</div><!--left-->
+	</div><!--medio-->
+</div><!--cuerpo-->
+</div><!--contenedor-->
+</body>
+</html>

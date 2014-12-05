@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<head>
+<title>Web de Música</title>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" /> 
+<link rel="StyleSheet" href="estilos.css" type="text/css">
+</head>
+<body>
+	<div align="center" style="width:1024px" id="contenedor">
+<div id="banner">
+
+<div  id="logo"> 
+</div>
+<div id="title">TickTackZubiriTickets</div>
+<div id="form"><form name="registro"><fieldset><legend>Entrar</legend>Usuario:<input type="text" value="Introduzca usuario"><br/>Contraseña:<input type="password" value="introduzca contraseña"><br/><input type="submit" value="Aceptar"></fieldset> </form></div>
+</div>
+<div id="cuerpo1">
+<div id="menu">
+<h2>Menú</h2>
+</br>
+<ul>
+<li>Últimas noticias</li>
+<li>Próximo concierto</li>
+<li>Conciertos en enero</li>
+<li>Conciertos en junio</li>
+<li>Fotos de conciertos</li>
+<li>Comprar entradas</li>
+</ul>
+</div>
+</div>
+</div><--contenedor
+</body>
+</html>
